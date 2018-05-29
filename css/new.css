@@ -1,0 +1,62 @@
+.newtop{
+    margin: 5em auto;
+    text-align: center;
+}
+.newtop h1{
+    color: #0066cb;
+    padding: 0.3em 0em;
+}
+.newtop>h4{
+    display: inline;
+}
+.newtop>h5{
+    display: inline;
+    font-style:italic;
+}
+.new{
+    background-color: #051129;
+}
+.new .row img{
+    margin-bottom: 2.5em;
+}
+.new .row .red p{
+    text-align: center;
+    color: red;
+    line-height: 2em;
+}
+.new .row .red p:last-child{
+    margin-bottom: 2.5em;
+}
+.new .row .white p{
+    text-align: center;
+    color: white;
+    line-height: 2em;
+}
+.new .row .white p:last-child{
+    margin-bottom: 1.5em;
+}
+.new .row .set1{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1.5em;
+}
+.new .row .set2,.set3{
+    color: #FFFFFF;
+}
+.new .row .set2 h4{
+    margin-bottom: 1.5em;
+    line-height: 2em;
+}
+.new .row .set2 p{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+.new .row .set3 h4{
+    line-height: 2em;
+}
+.new .row .set3 h4:first-child,h4:last-child{
+    margin-bottom: 1.5em;
+    line-height: 2em;
+}
+

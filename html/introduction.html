@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>闲来共享洗车</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+    <!--video-->
+    <script type="text/javascript" src="../ckplayer/ckplayer.js" charset="utf-8"></script>
+</head>
+<body>
+<!--header start here-->
+<div class="banner">
+    <div class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <h1><a href="javascript:void(0);" style="text-decoration:none;cursor:default;"><img src="../images/img/logo.jpg" alt="" class="img-circle" style="width: 50px;height: 50px;margin-right: 5px;"/>闲来共享洗车</a></h1>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"><img src="../images/img/icon1.png" alt=""/></span>
+                    <nav class="cl-effect-16">
+                        <ul class="res">
+                            <li><a class="scroll" href="index.html" data-hover="首页">首页</a></li>
+                            <li><a class="scroll" href="introduction.html"  data-hover="项目介绍">项目介绍</a></li>
+                            <li><a class="scroll" href="aliance.html"  data-hover="招商加盟">招商加盟</a></li>
+                            <li><a class="scroll" href="using.html"  data-hover="使用流程">使用流程</a></li>
+                            <li><a class="scroll" href="news.html" data-hover="新闻">新闻</a></li>
+                            <li><a class="scroll" href="contact.html"  data-hover="联系我们">联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <section class="slider">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <div class="banner-bottom">
+                        <h3>网点设备强大系统</h3>
+                        <br>
+                        <p> 所有设备通过互联网实现共享</p>
+                        <p>任意站点充值客户可实现在任意站</p>
+                        <p>点使用设备</p>
+                        <p>每个站点拥有独立后台</p>
+                        <p>方便监控和运营</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-bottom">
+                        <h3>24小时运营无人值守</h3>
+                        <br>
+                        <p>不受时间限制</p>
+                        <p>24小时可使用设备</p>
+                        <p>可实现无人值守</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="banner-bottom">
+                        <h3>扫码支付自动结算</h3>
+                        <br>
+                        <p>车主通过微信扫码即可启动设备</p>
+                        <p>洗车流程简便适用</p>
+                        <p>车主使用完毕后</p>
+                        <p>系统自动结算，方便快捷</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+    </section>
+</div>
+<!--header end here-->
+
+<!--about start here-->
+<!--Project Introduction and video-->
+<div class="about" id="about">
+    <div class="container">
+        <div class="about-main">
+            <div class="about-top">
+                <h4 style="color: #0066cb;font-size: 2em;">项目介绍</h4>
+                <h4 style="font-size: 1.5em;">Project Introduction</h4>
+                <p>闲来共享洗车项目是由深圳古众兴贸易有限公司创立的一个创新性的社会服务项目，独创互联网+共享生活服务，推动共享经济，改变传统洗车方式的汽车后市场共享互联网产品，通过车主扫码支付，获得共享自助式洗车的服务。具有：方便，快捷，省钱，环保等特点。</p>
+            </div>
+            <div class="about-bottom">
+                <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 about-grid text-center">
+                    <!--<img src="../images/img/b1.jpg" alt="" class="img-responsive"/>-->
+                    <div id="video"></div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--video.js start here-->
+<script>
+    var videoObject = {
+        container: '#video',								//“#”代表容器的ID，“.”或“”代表容器的class
+        variable: 'player',									//该属性必需设置，值等于下面的new chplayer()的对象
+        flashplayer:false,                                 //如果强制使用flashplayer则设置成true
+        mobileCkControls:true,                             //是否在移动端（包括ios）环境中显示控制栏
+        poster: '../images/img/b1.jpg',										//封面图片
+        video: {
+            // file:'http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4',                                 //视频地址
+            file:'../video/1.mp4',
+            type:'video/mp4',
+        }
+    };
+    var player=new ckplayer(videoObject);
+</script>
+<!--video.js end here-->
+<!--about end here-->
+
+<!--features strat here-->
+<!--Project detailed Introduction-->
+<div class="features">
+    <div class="container">
+        <div class="features-main">
+            <div class="features-bottom">
+               <div class="feats-bot1">
+                    <div class="row">
+                            <div class="col-md-6 col-sm-6 feat-grid">
+                                <div class="feat-img">
+                                    <img src="../images/img/f1.png" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 feat-text">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 feat-img" style="top:2em;left: 1.5em;">
+                                        <img src="../images/icon/system.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10 feat-text">
+                                        <h4>网点设备强大系统</h4>
+                                        <p>所有设备通过互联网实现共享，任意站点充值客户可实现在任意站点使用设备，每个站点拥有独立后台，方便监控和运营。</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2 col-xs-2 feat-img" style="top:2em;left: 1.5em;">
+                                        <img src="../images/icon/loop.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-10 col-sm-10 col-xs-10 feat-text">
+                                        <h4>国家标准环保材料</h4>
+                                        <p>闲来洗车全面使用符合国家环保标准的洗车液以及其他洗车材料。并且水质进过分成处理，严格按照国家规定排水，不影响环境。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    <div class="clearfix"> </div>
+                </div>
+               <div class="feats-bot1">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 feat-text">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2 feat-img" style="top:2em;left: 1.5em;">
+                                <img src="../images/icon/WeChat.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 feat-text">
+                                <h4>扫码支付自动结算</h4>
+                                <p>车主通过微信扫码即可启动设备，洗车流程简便适用，车主使用完毕后，系统自动结算，方便快捷。</p>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2 feat-img" style="top:2em;left: 1.5em;">
+                                <img src="../images/icon/nopeople.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 feat-text">
+                                <h4>24小时运营无人值守</h4>
+                                <p>不受时间限制，24小时可使用设备，可实现无人值守。</p>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 col-xs-2 feat-img" style="top:2em;left: 1.5em;">
+                                <img src="../images/icon/mass.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 feat-text">
+                                <h4>品质保证新型服务</h4>
+                                <p>使用最优质的制造材料，机器的使用品质与寿命通过国家CE认证，符合国家安全标准。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 feat-grid">
+                        <div class="feat-img">
+                            <img src="../images/img/f2.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+               <div class="clearfix"> </div>
+             </div>
+        </div>
+    </div>
+</div>
+<!--features end here-->
+
+<!--about1 start here-->
+<!--Project Introduction logo-->
+<div class="about" id="about1" style="background-color: #eeeeee;">
+    <div class="container">
+        <div class="about-main">
+            <div class="about-top">
+                <h4>广告联盟+产品联盟</h4>
+                <h4>为商家提供广告互动，为车主增加增值服务，提供优惠品质的后市场产品</h4>
+            </div>
+            <div class="about-bottom">
+                <div class="col-md-4 col-sm-4 col-xs-4 about-grid">
+                    <img src="../images/icon/signal.png" alt="" class="img-responsive" style="margin: 0 auto;"/>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 about-grid">
+                    <img src="../images/icon/people.png" alt="" class="img-responsive" style="margin: 0 auto;"/>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 about-grid">
+                    <img src="../images/icon/gift.png" alt="" class="img-responsive" style="margin: 0 auto;"/>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--about1 end here-->
+
+<!--about2 start here-->
+<!--share car bring to what-->
+<div class="about" id="about2">
+    <div class="container">
+        <div class="about-main">
+            <div class="about-top">
+                <h4 style="text-align: left;width: 98%;">闲来洗车能为物业带来什么？</h4>
+            </div>
+            <div class="about-bottom">
+                <div class="col-md-4 col-sm-4 about-grid">
+                    <img src="../images/img/a2.jpg" alt="" class="img-responsive">
+                    <p style="color: #0066cb;">提升场地利用率、增加收益</p>
+                    <p>闲来洗车进驻物业场地，将提升场地利用率，完善物业场地配套，吸引车主，洗车消费，从而增加物业的收益。</p>
+                </div>
+                <div class="col-md-4 col-sm-4 about-grid">
+                    <img src="../images/img/a3.jpg" alt="" class="img-responsive">
+                    <p style="color: #0066cb;">为车主提供方便</p>
+                    <p>闲来洗车的进驻让车主24小时享受洗车服务，方便、快捷、环保、实惠、切实，为车主提供方便。</p>
+                </div>
+                <div class="col-md-4 col-sm-4 about-grid">
+                    <img src="../images/img/a4.jpg" alt="" class="img-responsive">
+                    <p style="color: #0066cb;">连带商业价值</p>
+                    <p>闲来洗车平台导流系统，导流其他车来到物业场地洗车，将会带来连带商业价值，甲方可以引用人流与车辆做相应的其他配套产生收益。</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--about2 end here-->
+
+<!--footer start here-->
+<section>
+    <div class="container">
+        <div class="row" style="margin: 20px 0px;">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <img src="../images/img/logo.jpg" style="width: 50px;height: 50px;" class="img-circle"/>
+                <br>
+                <p class="text-faded" style="color: #919191;">Changing the traditional way of car wash</p>
+                <br>
+                <p class="text-faded">加盟热线：400-151-0080|深圳市古众兴贸易有限公司|汽车后市场共享互联网</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-4 col-sm-6 col-xs-12 right">
+                <p>Copyright 2018.All rights reserved.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 left">
+                <p>备案号：粤ICP备17041150号-2</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--footer end here-->
+
+<!-- FlexSlider-js start here-->
+<script defer src="../js/jquery.flexslider.js"></script>
+<!-- FlexSlider-js end here-->
+<!--testmony-js start here-->
+<script src="../js/responsiveslides.min.js"></script>
+<!--testmony-js end here-->
+<!--gallery-js start here-->
+<script type="text/javascript" src="../js/nivo-lightbox.min.js"></script>
+<!--gallery-js start here-->
+<script type="text/javascript" src="../js/exter.js"></script>
+<script type="text/javascript" src="../js/scrolltopcontrol.js"></script>
+</body>
+</html>
